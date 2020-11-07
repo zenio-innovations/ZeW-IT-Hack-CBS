@@ -14,6 +14,26 @@ const machine = {
   }
 };
 
+function check(props) {
+  for(var i=0;i<=props.length;i++)
+  {
+    if(i==0 && props[i]==1)
+      return <h1>metal</h1>
+    else
+    if(i==1 && props[i]==1)
+      return <h1>cardboard</h1>
+    else
+    if(i==2 && props[i]==1)
+      return <h1>glass</h1>
+    else
+    if(i==3 && props[i]==1)
+      return <h1>Plastic</h1>
+    else
+    if(i==4 && props[i]==1)
+      return <h1>paper</h1>
+  };
+}
+
 function App() {
   const [results, setResults] = useState([]);
   const [imageURL, setImageURL] = useState(null);
@@ -39,10 +59,10 @@ function App() {
     await tf.tidy(() => {
 
       // Convert the canvas pixels to a Tensor of the matching shape
-      let img = tf.browser.fromPixels(imageRef.current, 3);
+      let img = tf.browser.fromPixels(imageRef.current).resizeNearestNeighbor([300, 300]).toFloat().expandDims();
       console.log(imageRef.current)
-      img = img.reshape([1, 300, 300, 3]);
-      img = tf.cast(img, 'float32');
+      //img = img.reshape([1, 300, 300, 3]);
+      //img = tf.cast(img, 'float32');
 
       // Make and format the predications
       const output = model.predict(img);
@@ -50,6 +70,7 @@ function App() {
       // Save predictions on the component
       const predictions = Array.from(output.dataSync()); 
       setResults(predictions);
+      console.log(predictions)
     
     });
     //const results = await model.classify(imageRef.current);
@@ -95,11 +116,7 @@ function App() {
       />
       {showResults && (
         <ul>
-          {results.map(({ className, probability }) => (
-            <li key={className}>{`${className}: %${(probability * 100).toFixed(
-              2
-            )}`}</li>
-          ))}
+          {check(results)}
         </ul>
       )}
       <button onClick={actionButton[appState].action || (() => {})}>
