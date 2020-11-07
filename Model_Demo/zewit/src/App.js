@@ -31,6 +31,8 @@ function check(props) {
     else
     if(i==4 && props[i]==1)
       return <h1>paper</h1>
+    else
+     return <h1>Junk</h1>
   };
 }
 
@@ -58,8 +60,9 @@ function App() {
     next();
     await tf.tidy(() => {
 
+
       // Convert the canvas pixels to a Tensor of the matching shape
-      let img = tf.browser.fromPixels(imageRef.current).resizeNearestNeighbor([300, 300]).toFloat().expandDims();
+      let img = tf.browser.fromPixels(imageRef.current,3).resizeNearestNeighbor([300, 300]).toFloat().expandDims();
       console.log(imageRef.current)
       //img = img.reshape([1, 300, 300, 3]);
       //img = tf.cast(img, 'float32');
