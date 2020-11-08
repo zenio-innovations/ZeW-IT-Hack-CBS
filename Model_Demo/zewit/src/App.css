@@ -1,9 +1,9 @@
 body {
   color: white;
-  background: black;
+  /* background: black; */
 }
 
-div {
+.bin-upload {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -16,7 +16,7 @@ input {
   height: 0.1px;
   opacity: 0;
   overflow: hidden;
-  position: absolute;
+  position: relative;
   z-index: -1;
 }
 
@@ -33,7 +33,7 @@ ul {
   padding: 10px;
 }
 
-img {
+.img {
   width: 300px;
   margin-bottom: 25px;
 }
