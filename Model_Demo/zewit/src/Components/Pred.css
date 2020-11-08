@@ -1,6 +1,8 @@
 body {
     color: white;
     /* background: black; */
+    background: linear-gradient(90.16deg, #4E82AA 26.31%, #172941 99.87%);
+
     overflow-x: hidden;
   }
   
