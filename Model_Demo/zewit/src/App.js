@@ -17,22 +17,32 @@ const machine = {
 function check(props) {
   for(var i=0;i<=props.length;i++)
   {
-    if(i==0 && props[i]==1)
+    if(i==0 && props[i]==1){
+      console.log("in metal")
       return <h1>metal</h1>
+    }
     else
-    if(i==1 && props[i]==1)
+    if(i==1 && props[i]==1){
+      console.log("in cb")
       return <h1>cardboard</h1>
+    }
     else
-    if(i==2 && props[i]==1)
+    if(i==2 && props[i]==1){
+      console.log("in glass")
       return <h1>glass</h1>
+    }
     else
-    if(i==3 && props[i]==1)
+    if(i==3 && props[i]==1){
+      console.log("in plastic")
       return <h1>Plastic</h1>
+    }
     else
-    if(i==4 && props[i]==1)
+    if(i==4 && props[i]==1){
+      console.log("in paper")
       return <h1>paper</h1>
-    else
-     return <h1>Junk</h1>
+    }
+    //else
+     //return <h1>Junk</h1>
   };
 }
 
@@ -62,7 +72,7 @@ function App() {
 
 
       // Convert the canvas pixels to a Tensor of the matching shape
-      let img = tf.browser.fromPixels(imageRef.current,3).resizeNearestNeighbor([300, 300]).toFloat().expandDims();
+      let img = tf.browser.fromPixels(imageRef.current,3).resizeNearestNeighbor([300, 300]).toFloat().div(255).expandDims(0);
       console.log(imageRef.current)
       //img = img.reshape([1, 300, 300, 3]);
       //img = tf.cast(img, 'float32');
