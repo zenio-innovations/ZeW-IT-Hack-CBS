@@ -4,17 +4,17 @@
 
 
 
-[![GitHub top language](https://img.shields.io/github/languages/top/adithyaanilkumar/ZeW-IT?color=green&logo=html)]() 
-[![GitHub language count](https://img.shields.io/github/languages/count/adithyaanilkumar/ZeW-IT?color=green&logo=html)]() 
-[![GitHub issues](https://img.shields.io/github/issues/adithyaanilkumar/ZeW-IT.svg)](https://GitHub.com/adithyaanilkumar/ZeW-IT/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/adithyaanilkumar/ZeW-IT.svg)](https://github.com/adithyaanilkumar/ZeW-IT/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/adithyaanilkumar/ZeW-IT.svg)](https://github.com/adithyaanilkumar/ZeW-IT/graphs/contributors)
-![Last Commit on GitHub](https://img.shields.io/github/last-commit/adithyaanilkumar/ZeW-IT.svg)
+[![GitHub top language](https://img.shields.io/github/languages/top/zenio-innovations/ZeW-IT-Hack-CBS?color=green&logo=html)]() 
+[![GitHub language count](https://img.shields.io/github/languages/count/zenio-innovations/ZeW-IT-Hack-CBS?color=green&logo=html)]() 
+[![GitHub issues](https://img.shields.io/github/issues/zenio-innovations/ZeW-IT-Hack-CBS.svg)](https://GitHub.com/zenio-innovations/ZeW-IT-Hack-CBS/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/zenio-innovations/ZeW-IT-Hack-CBS.svg)](https://github.com/zenio-innovations/ZeW-IT-Hack-CBS/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/zenio-innovations/ZeW-IT-Hack-CBS.svg)](https://github.com/zenio-innovations/ZeW-IT-Hack-CBS/graphs/contributors)
+![Last Commit on GitHub](https://img.shields.io/github/last-commit/zenio-innovations/ZeW-IT-Hack-CBS.svg)
 
 
-[![GitHub forks](https://img.shields.io/github/forks/adithyaanilkumar/ZeW-IT.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/adithyaanilkumar/ZeW-IT)
-[![GitHub stars](https://img.shields.io/github/stars/adithyaanilkumar/ZeW-IT.svg?style=social&label=Star&maxAge=2592000)](https://github.com/adithyaanilkumar/ZeW-IT)
-[![GitHub watchers](https://img.shields.io/github/watchers/adithyaanilkumar/ZeW-IT.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/adithyaanilkumar/ZeW-IT)
+[![GitHub forks](https://img.shields.io/github/forks/zenio-innovations/ZeW-IT-Hack-CBS.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/zenio-innovations/ZeW-IT-Hack-CBS)
+[![GitHub stars](https://img.shields.io/github/stars/zenio-innovations/ZeW-IT-Hack-CBS.svg?style=social&label=Star&maxAge=2592000)](https://github.com/zenio-innovations/ZeW-IT-Hack-CBS)
+[![GitHub watchers](https://img.shields.io/github/watchers/zenio-innovations/ZeW-IT-Hack-CBS.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/zenio-innovations/ZeW-IT-Hack-CBS)
 
 ## Tech Stack
 - Deep Multiple Instance Learning 
