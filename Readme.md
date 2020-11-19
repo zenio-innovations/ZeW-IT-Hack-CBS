@@ -23,9 +23,6 @@
 - Arduino 
 - Phonegap
 
-Join our [DISCORD channel](https://discord.gg/FyaASnh) to stay updated and to clear your doubts/queries.
-PRs are highly appreciated!
-
 Read [Guidelines](/CONTRIBUTING.md) for making a PR.
 
 # About ZeW-IT
